@@ -1,0 +1,9 @@
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_tasarim\Koctas_tasarim\bin\Debug\Koctas_tasarim.exe
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_tasarim\Koctas_tasarim\bin\Debug\Koctas_tasarim.pdb
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_tasarim\Koctas_tasarim\obj\Debug\Koctas_tasarim.frmEtiketSecimi.resources
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_tasarim\Koctas_tasarim\obj\Debug\Koctas_tasarim.Properties.Resources.resources
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_tasarim\Koctas_tasarim\obj\Debug\Koctas_tasarim.csproj.GenerateResource.Cache
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_tasarim\Koctas_tasarim\obj\Debug\Koctas_tasarim.exe
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_tasarim\Koctas_tasarim\obj\Debug\Koctas_tasarim.pdb
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_tasarim\Koctas_tasarim\obj\Debug\Koctas_tasarim.frmEtiket.resources
+C:\Users\AristaTabletUser\Documents\Visual Studio 2015\Projects\Koctas_tasarim\Koctas_tasarim\obj\Debug\Koctas_tasarim.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\bin\Debug\Koctas_etiket.exe
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\bin\Debug\Koctas_etiket.pdb
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.csprojResolveAssemblyReference.cache
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.Form1.resources
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.Properties.Resources.resources
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.csproj.GenerateResource.Cache
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.exe
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.pdb
+c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\bin\Debug\Koctas_etiket.exe.config
