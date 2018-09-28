@@ -382,7 +382,7 @@ namespace Koctas_etiket
                                         text = GlobalData.etkList[GlobalData.counter].olcu_birim_yeni;
                                         break;
                                     case "kdv":
-                                        text = GlobalData.etkList[GlobalData.counter].kdv;
+                                        text = "";
                                         break;
 
                                     case "barkod":
@@ -496,7 +496,7 @@ namespace Koctas_etiket
                                         text = GlobalData.etkList[GlobalData.counter].olcu_birim;
                                         break;
                                     case "kdv":
-                                        text = GlobalData.etkList[GlobalData.counter].kdv;
+                                        text = "";
                                         break;
 
                                     case "barkod":
@@ -582,13 +582,26 @@ namespace Koctas_etiket
                                         image = generator.GenerateImage();
                                         image.RotateFlip(RotateFlipType.Rotate270FlipNone);
 
+                                        // Custom Yerli etiket
                                         Bitmap bmp = new Bitmap(Koctas_etiket.Properties.Resources.yerli, new Size(76, 30));
                                         e.Graphics.DrawImage(bmp, new PointF(num + 12, num2 - 30));
 
-                                        e.Graphics.DrawString("Promosyon Geçerlilik Tarihi", new Font("Arial", 5), brush, new PointF(50, 204));
-                                        e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_basla, new Font("Arial", 5), brush, new PointF(50, 214));
+                                        // Custom Fiyata kdv dahildir.
+                                        StringFormat format = new StringFormat();
+                                        format.Alignment = StringAlignment.Center;
+                                        e.Graphics.TranslateTransform(60 + 5 + num, 80 + 139 + num2);
+                                        e.Graphics.RotateTransform(90);
+                                        e.Graphics.DrawString("FİYATA KDV DAHİLDİR", new Font("Arial", 5), brush, 0, 0, format);
+                                        e.Graphics.ResetTransform();
 
-
+                                        // Custom Geçerlilik Tarihi -> Promosyon Geçerlilik Tarihi
+                                        if (GlobalData.etkList[GlobalData.counter].parokart_gecer.Equals("X"))
+                                        {
+                                            e.Graphics.DrawString("Promosyon Geçerlilik Tarihi", new Font("Arial", 5), brush, new PointF(5 + num, 129 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_basla, new Font("Arial", 5), brush, new PointF(5 + num, 139 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_bitis, new Font("Arial", 5), brush, new PointF(53 + num, 139 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_ayirac, new Font("Arial", 5), brush, new PointF(45 + num, 139 + num2));
+                                        }
                                     }
                                     if (etkTip == "002")
                                     {

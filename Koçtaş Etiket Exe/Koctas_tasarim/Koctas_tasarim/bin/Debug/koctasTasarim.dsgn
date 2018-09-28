@@ -17,7 +17,7 @@
         <size>8</size>
         <font>Tahoma</font>
         <XPoint>18</XPoint>
-        <YPoint>169</YPoint>
+        <YPoint>155</YPoint>
         <imageWidth>10</imageWidth>
         <imageHeigth>30</imageHeigth>
       </item>
@@ -75,7 +75,7 @@
         <YPoint>53</YPoint>
       </item>
       <item name="kdv">
-        <aktif>0</aktif>
+        <aktif>1</aktif>
         <size>6</size>
         <font>Arial</font>
         <XPoint>5</XPoint>
@@ -115,14 +115,14 @@
         <size>7</size>
         <font>Arial</font>
         <XPoint>6</XPoint>
-        <YPoint>290</YPoint>
+        <YPoint>275</YPoint>
       </item>
       <item name="urunkodu">
         <aktif>1</aktif>
         <size>7</size>
         <font>Arial</font>
         <XPoint>6</XPoint>
-        <YPoint>300</YPoint>
+        <YPoint>285</YPoint>
       </item>
       <item name="tarih">
         <aktif>0</aktif>
