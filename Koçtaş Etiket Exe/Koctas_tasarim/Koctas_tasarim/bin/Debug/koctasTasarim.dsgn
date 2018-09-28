@@ -754,14 +754,14 @@
   </etiket>
   <etiket tip="004" isim="4. Tip">
     <yon>dikey</yon>
-    <yatay>2</yatay>
-    <dikey>4</dikey>
+    <yatay>3</yatay>
+    <dikey>3</dikey>
     <en>380</en>
     <boy>245</boy>
     <orgx>5</orgx>
-    <orgy>60</orgy>
-    <vspace>10</vspace>
-    <hspace>10</hspace>
+    <orgy>5</orgy>
+    <vspace>0</vspace>
+    <hspace>0</hspace>
     <aciklama>Her yerde</aciklama>
     <items>
       <item name="barkod">
@@ -769,7 +769,7 @@
         <text>*694675032736*</text>
         <size>11</size>
         <font>Arial</font>
-        <XPoint>4</XPoint>
+        <XPoint>3</XPoint>
         <YPoint>175</YPoint>
         <imageWidth>14</imageWidth>
         <imageHeigth>40</imageHeigth>
@@ -784,72 +784,72 @@
         <durumlar>
           <durum name="1">
             <XPoint>145</XPoint>
-            <YPoint>0</YPoint>
-            <size>120</size>
+            <YPoint>80</YPoint>
+            <size>50</size>
           </durum>
           <durum name="2">
-            <XPoint>70</XPoint>
-            <YPoint>0</YPoint>
-            <size>120</size>
+            <XPoint>107</XPoint>
+            <YPoint>80</YPoint>
+            <size>50</size>
           </durum>
           <durum name="3">
-            <XPoint>-13</XPoint>
-            <YPoint>0</YPoint>
-            <size>115</size>
+            <XPoint>70</XPoint>
+            <YPoint>80</YPoint>
+            <size>50</size>
           </durum>
           <durum name="4">
-            <XPoint>-10</XPoint>
-            <YPoint>10</YPoint>
-            <size>90</size>
+            <XPoint>33</XPoint>
+            <YPoint>80</YPoint>
+            <size>50</size>
           </durum>
           <durum name="5">
             <XPoint>10</XPoint>
-            <YPoint>35</YPoint>
-            <size>75</size>
+            <YPoint>80</YPoint>
+            <size>50</size>
           </durum>
           <durum name="6">
-            <XPoint>10</XPoint>
-            <YPoint>50</YPoint>
-            <size>60</size>
+            <XPoint>0</XPoint>
+            <YPoint>80</YPoint>
+            <size>50</size>
           </durum>
         </durumlar>
       </item>
       <item name="fiyat2">
         <aktif>1</aktif>
         <text>99</text>
-        <size>40</size>
+        <size>50</size>
         <font>Arial</font>
-        <XPoint>290</XPoint>
-        <YPoint>38</YPoint>
+        <XPoint>200</XPoint>
+        <YPoint>80</YPoint>
       </item>
       <item name="ayirac">
         <aktif>1</aktif>
         <text>,</text>
-        <size>20</size>
+        <size>50</size>
         <font>Arial</font>
-        <XPoint>287</XPoint>
-        <YPoint>60</YPoint>
+        <XPoint>180</XPoint>
+        <YPoint>80</YPoint>
       </item>
       <item name="kdv">
         <aktif>1</aktif>
         <size>7</size>
         <font>Arial</font>
         <XPoint>40</XPoint>
-        <YPoint>164</YPoint>
+        <YPoint>166</YPoint>
       </item>
       <item name="mensei">
         <aktif>1</aktif>
         <size>8</size>
         <font>Arial</font>
-        <XPoint>190</XPoint>
+        <XPoint>200</XPoint>
         <YPoint>186</YPoint>
       </item>
       <item name="tanim">
-        <karsayi>40</karsayi>
+        <karsayi>25</karsayi>
         <aktif>1</aktif>
         <text>1610310 PLATA ALTTAN KLOZET BYZ</text>
         <size>10</size>
-        <font>DINbek Medium</font>
+        <font>Arial</font>
         <XPoint>15</XPoint>
         <YPoint>10</YPoint>
       </item>
@@ -874,7 +874,7 @@
         <text>03</text>
         <size>10</size>
         <font>Arial</font>
-        <XPoint>190</XPoint>
+        <XPoint>200</XPoint>
         <YPoint>173</YPoint>
       </item>
       <item name="urunkodu">
@@ -882,7 +882,7 @@
         <text>1000061118</text>
         <size>10</size>
         <font>Arial</font>
-        <XPoint>275</XPoint>
+        <XPoint>285</XPoint>
         <YPoint>173</YPoint>
       </item>
       <item name="tarih">
@@ -901,52 +901,52 @@
         <YPoint>-10</YPoint>
         <durumlar>
           <durum name="1">
-            <XPoint>210</XPoint>
-            <YPoint>80</YPoint>
-            <size>60</size>
+            <XPoint>155</XPoint>
+            <YPoint>105</YPoint>
+            <size>40</size>
           </durum>
           <durum name="2">
-            <XPoint>170</XPoint>
-            <YPoint>80</YPoint>
-            <size>60</size>
+            <XPoint>125</XPoint>
+            <YPoint>105</YPoint>
+            <size>40</size>
           </durum>
           <durum name="3">
-            <XPoint>130</XPoint>
-            <YPoint>80</YPoint>
-            <size>60</size>
+            <XPoint>95</XPoint>
+            <YPoint>105</YPoint>
+            <size>40</size>
           </durum>
           <durum name="4">
-            <XPoint>-10</XPoint>
-            <YPoint>10</YPoint>
-            <size>90</size>
+            <XPoint>65</XPoint>
+            <YPoint>105</YPoint>
+            <size>40</size>
           </durum>
           <durum name="5">
-            <XPoint>70</XPoint>
-            <YPoint>80</YPoint>
-            <size>55</size>
+            <XPoint>35</XPoint>
+            <YPoint>105</YPoint>
+            <size>40</size>
           </durum>
           <durum name="6">
-            <XPoint>15</XPoint>
-            <YPoint>80</YPoint>
-            <size>55</size>
+            <XPoint>5</XPoint>
+            <YPoint>105</YPoint>
+            <size>40</size>
           </durum>
         </durumlar>
       </item>
       <item name="fiyat2_yeni">
         <aktif>1</aktif>
         <text>99</text>
-        <size>30</size>
+        <size>40</size>
         <font>Arial</font>
-        <XPoint>290</XPoint>
-        <YPoint>93</YPoint>
+        <XPoint>200</XPoint>
+        <YPoint>105</YPoint>
       </item>
       <item name="ayirac_yeni">
         <aktif>1</aktif>
         <text>,</text>
-        <size>20</size>
+        <size>40</size>
         <font>Arial</font>
-        <XPoint>287</XPoint>
-        <YPoint>103</YPoint>
+        <XPoint>190</XPoint>
+        <YPoint>105</YPoint>
       </item>
       <item name="fiyat_birim_yeni">
         <aktif>1</aktif>
@@ -954,15 +954,15 @@
         <size>16</size>
         <font>Arial</font>
         <XPoint>290</XPoint>
-        <YPoint>135</YPoint>
+        <YPoint>127</YPoint>
       </item>
       <item name="olcu_birim_yeni">
         <aktif>1</aktif>
         <text>TL /ADET</text>
-        <size>9</size>
+        <size>12</size>
         <font>Arial</font>
-        <XPoint>305</XPoint>
-        <YPoint>144</YPoint>
+        <XPoint>310</XPoint>
+        <YPoint>130</YPoint>
       </item>
       <item name="fiyat1_eski">
         <aktif>1</aktif>
@@ -972,52 +972,52 @@
         <YPoint>-10</YPoint>
         <durumlar>
           <durum name="1">
-            <XPoint>210</XPoint>
-            <YPoint>12</YPoint>
-            <size>60</size>
+            <XPoint>155</XPoint>
+            <YPoint>55</YPoint>
+            <size>40</size>
           </durum>
           <durum name="2">
-            <XPoint>170</XPoint>
-            <YPoint>12</YPoint>
-            <size>60</size>
+            <XPoint>125</XPoint>
+            <YPoint>55</YPoint>
+            <size>40</size>
           </durum>
           <durum name="3">
-            <XPoint>130</XPoint>
-            <YPoint>12</YPoint>
-            <size>60</size>
+            <XPoint>95</XPoint>
+            <YPoint>55</YPoint>
+            <size>40</size>
           </durum>
           <durum name="4">
-            <XPoint>100</XPoint>
-            <YPoint>12</YPoint>
-            <size>60</size>
+            <XPoint>65</XPoint>
+            <YPoint>55</YPoint>
+            <size>40</size>
           </durum>
           <durum name="5">
-            <XPoint>70</XPoint>
-            <YPoint>12</YPoint>
-            <size>55</size>
+            <XPoint>35</XPoint>
+            <YPoint>55</YPoint>
+            <size>40</size>
           </durum>
           <durum name="6">
-            <XPoint>15</XPoint>
-            <YPoint>12</YPoint>
-            <size>55</size>
+            <XPoint>5</XPoint>
+            <YPoint>55</YPoint>
+            <size>40</size>
           </durum>
         </durumlar>
       </item>
       <item name="fiyat2_eski">
         <aktif>1</aktif>
         <text>99</text>
-        <size>30</size>
+        <size>40</size>
         <font>Arial</font>
-        <XPoint>290</XPoint>
-        <YPoint>24</YPoint>
+        <XPoint>200</XPoint>
+        <YPoint>55</YPoint>
       </item>
       <item name="ayirac_eski">
         <aktif>1</aktif>
         <text>99</text>
-        <size>20</size>
+        <size>40</size>
         <font>Arial</font>
-        <XPoint>290</XPoint>
-        <YPoint>33</YPoint>
+        <XPoint>190</XPoint>
+        <YPoint>55</YPoint>
       </item>
       <item name="fiyat_birim_eski">
         <aktif>1</aktif>
@@ -1025,15 +1025,15 @@
         <size>16</size>
         <font>Arial</font>
         <XPoint>290</XPoint>
-        <YPoint>65</YPoint>
+        <YPoint>75</YPoint>
       </item>
       <item name="olcu_birim_eski">
         <aktif>1</aktif>
         <text>TL /ADET</text>
-        <size>9</size>
+        <size>12</size>
         <font>Arial</font>
-        <XPoint>305</XPoint>
-        <YPoint>74</YPoint>
+        <XPoint>310</XPoint>
+        <YPoint>78</YPoint>
       </item>
       <item name="carpi_eski">
         <aktif>1</aktif>
@@ -1110,35 +1110,35 @@
         <aktif>1</aktif>
         <size>8</size>
         <font>Arial</font>
-        <XPoint>190</XPoint>
+        <XPoint>200</XPoint>
         <YPoint>199</YPoint>
       </item>
       <item name="gecer_tar_text">
-        <karsayi>20</karsayi>
+        <karsayi>30</karsayi>
         <aktif>1</aktif>
         <size>8</size>
         <font>Arial</font>
-        <XPoint>190</XPoint>
-        <YPoint>212</YPoint>
+        <XPoint>10</XPoint>
+        <YPoint>225</YPoint>
       </item>
       <item name="gecer_tar_basla">
         <karsayi>14</karsayi>
         <aktif>1</aktif>
         <size>8</size>
         <font>Arial</font>
-        <XPoint>190</XPoint>
+        <XPoint>125</XPoint>
         <YPoint>225</YPoint>
       </item>
       <item name="gecer_tar_bitis">
         <karsayi>14</karsayi>
-        <aktif>1</aktif>
+        <aktif>0</aktif>
         <size>8</size>
         <font>Arial</font>
         <XPoint>253</XPoint>
         <YPoint>225</YPoint>
       </item>
       <item name="gecer_tar_ayirac">
-        <aktif>1</aktif>
+        <aktif>0</aktif>
         <size>11</size>
         <font>Arial</font>
         <XPoint>246</XPoint>

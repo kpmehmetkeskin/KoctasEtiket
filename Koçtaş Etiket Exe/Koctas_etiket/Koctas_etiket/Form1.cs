@@ -279,7 +279,7 @@ namespace Koctas_etiket
             Functions.orientation(tip, out orientat);
             PrintDocument document = new PrintDocument();
             PageSettings settings = new PageSettings();
-            if (orientat == "yatay")
+            if (orientat == "yatay" || tip.Equals("004"))
             {
                 settings.Landscape = true;
             }
@@ -653,6 +653,24 @@ namespace Koctas_etiket
                                         GlobalData.bars.Font = new Font("Verdana", 8);
                                         GlobalData.bars.Dpi = 300;
                                         image = new BarCodeGenerator(GlobalData.bars).GenerateImage();
+
+                                        // Custom Yerli etiket
+                                        if (GlobalData.etkList[GlobalData.counter].mensei.Equals("Menşei :Türkiye"))
+                                        {
+                                            Bitmap bmp = new Bitmap(Koctas_etiket.Properties.Resources.yerli, new Size(101, 40));
+                                            e.Graphics.DrawImage(bmp, new PointF(num + 250, num2 + 5));
+                                        }
+
+                                        // Custom Promosyon Geçerlilik Tarihi Ekledik
+                                        if (GlobalData.etkList[GlobalData.counter].parokart_gecer.Equals("X"))  // Parokartı var 
+                                        {
+                                            e.Graphics.DrawString("Promosyon Geçerlilik Tarihi", new Font("Arial", 8), brush, new PointF(200 + num, 212 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_basla, new Font("Arial", 6), brush, new PointF(200 + num, 225 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_bitis, new Font("Arial", 6), brush, new PointF(250 + num, 225 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_ayirac, new Font("Arial", 6), brush, new PointF(246 + num, 225 + num2));
+                                        }
+
+
                                     }
                                     e.Graphics.DrawImage(image, new PointF(num14 + num, num15 + num2));
                                     continue;
