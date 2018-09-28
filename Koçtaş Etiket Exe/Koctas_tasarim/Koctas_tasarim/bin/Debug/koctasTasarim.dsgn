@@ -392,7 +392,7 @@
         <aktif>1</aktif>
         <size>8</size>
         <font>Microsoft Sans Serif</font>
-        <XPoint>3</XPoint>
+        <XPoint>1</XPoint>
         <YPoint>85</YPoint>
         <imageWidth>10</imageWidth>
         <imageHeigth>30</imageHeigth>
@@ -724,7 +724,7 @@
         <aktif>1</aktif>
         <size>5</size>
         <font>Arial</font>
-        <XPoint>5</XPoint>
+        <XPoint>8</XPoint>
         <YPoint>121</YPoint>
       </item>
       <item name="gecer_tar_basla">
