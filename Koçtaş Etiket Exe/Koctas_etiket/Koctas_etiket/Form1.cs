@@ -603,7 +603,7 @@ namespace Koctas_etiket
                                         e.Graphics.DrawString("FİYATA KDV DAHİLDİR", new Font("Arial", 5), brush, 0, 0, format);
                                         e.Graphics.ResetTransform();
 
-                                        // Custom Geçerlilik Tarihi -> Promosyon Geçerlilik Tarihi
+                                        // Custom Promosyon Geçerlilik Tarihi Ekledik
                                         if (GlobalData.etkList[GlobalData.counter].parokart_gecer.Equals("X"))  // Parokartı var 
                                         {
                                             e.Graphics.DrawString("Promosyon Geçerlilik Tarihi", new Font("Arial", 5), brush, new PointF(5 + num, 124 + num2));
@@ -625,6 +625,13 @@ namespace Koctas_etiket
                                         GlobalData.bars.Dpi = 100;
                                         generator = new BarCodeGenerator(GlobalData.bars);
                                         image = generator.GenerateImage();
+
+                                        if (GlobalData.etkList[GlobalData.counter].mensei.Equals("Menşei :Türkiye"))
+                                        {
+                                            Bitmap bmp = new Bitmap(Koctas_etiket.Properties.Resources.yerli, new Size(68, 29));
+                                            e.Graphics.DrawImage(bmp, new PointF(num + 195, num2 + 1));
+                                        }
+
                                     }
                                     if (etkTip == "004")
                                     {
