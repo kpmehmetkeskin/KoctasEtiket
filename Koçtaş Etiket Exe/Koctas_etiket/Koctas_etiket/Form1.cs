@@ -328,10 +328,10 @@ namespace Koctas_etiket
             int num8 = Convert.ToInt32(str7);
             int num9 = Convert.ToInt32(str9);
             int num10 = Convert.ToInt32(str10);
-            for (int i = 0; i < num5; i++)
+            for (int i = 0; i < num5; i++)  // num5 kaç etiket satırı
             {
-                int num2 = ((i * num4) + (i * num9)) + num8;
-                for (int j = 0; j < num6; j++)
+                int num2 = ((i * num4) + (i * num9)) + num8 + 30;
+                for (int j = 0; j < num6; j++)  //num6 kaç etiket sütunu
                 {
                     if (GlobalData.counter >= GlobalData.etkList.Count)
                     {
@@ -440,7 +440,9 @@ namespace Koctas_etiket
                                         break;
                                     case "gecer_tar_text":
                                         if (GlobalData.etkList[GlobalData.counter].gecer_tar_basla.Trim() != "" || GlobalData.etkList[GlobalData.counter].gecer_tar_bitis.Trim() != "")
-                                        { text = GlobalData.etkList[GlobalData.counter].gecer_tar_text; }
+                                        {
+                                            text = "Fiyat Değişiklik Tarihi";
+                                        }
                                         else
                                         {
                                             text = "";
@@ -450,11 +452,11 @@ namespace Koctas_etiket
                                         text = GlobalData.etkList[GlobalData.counter].gecer_tar_basla;
                                         break;
                                     case "gecer_tar_bitis":
-                                        text = GlobalData.etkList[GlobalData.counter].gecer_tar_bitis;
+                                        text = "";
                                         break;
                                     case "gecer_tar_ayirac":
                                         if (GlobalData.etkList[GlobalData.counter].gecer_tar_basla.Trim() != "" || GlobalData.etkList[GlobalData.counter].gecer_tar_bitis.Trim() != "")
-                                        { text = text = GlobalData.etkList[GlobalData.counter].gecer_tar_ayirac; }
+                                        { text = ""; }
                                         else
                                         {
                                             text = "";
@@ -529,7 +531,7 @@ namespace Koctas_etiket
                                         break;
                                     case "gecer_tar_text":
                                         if (GlobalData.etkList[GlobalData.counter].gecer_tar_basla.Trim() != "" || GlobalData.etkList[GlobalData.counter].gecer_tar_bitis.Trim() != "")
-                                        { text = GlobalData.etkList[GlobalData.counter].gecer_tar_text; }
+                                        { text = "Fiyat Değişiklik Tarihi"; }
                                         else
                                         {
                                             text = "";
@@ -539,11 +541,11 @@ namespace Koctas_etiket
                                         text = GlobalData.etkList[GlobalData.counter].gecer_tar_basla;
                                         break;
                                     case "gecer_tar_bitis":
-                                        text = GlobalData.etkList[GlobalData.counter].gecer_tar_bitis;
+                                        text = "";
                                         break;
                                     case "gecer_tar_ayirac":
                                         if (GlobalData.etkList[GlobalData.counter].gecer_tar_basla.Trim() != "" || GlobalData.etkList[GlobalData.counter].gecer_tar_bitis.Trim() != "")
-                                        { text = text = GlobalData.etkList[GlobalData.counter].gecer_tar_ayirac; }
+                                        { text = ""; }
                                         else
                                         {
                                             text = "";
@@ -579,6 +581,14 @@ namespace Koctas_etiket
                                         generator = new BarCodeGenerator(GlobalData.bars);
                                         image = generator.GenerateImage();
                                         image.RotateFlip(RotateFlipType.Rotate270FlipNone);
+
+                                        Bitmap bmp = new Bitmap(Koctas_etiket.Properties.Resources.yerli, new Size(76, 30));
+                                        e.Graphics.DrawImage(bmp, new PointF(num + 12, num2 - 30));
+
+                                        e.Graphics.DrawString("Promosyon Geçerlilik Tarihi", new Font("Arial", 5), brush, new PointF(50, 204));
+                                        e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_basla, new Font("Arial", 5), brush, new PointF(50, 214));
+
+
                                     }
                                     if (etkTip == "002")
                                     {

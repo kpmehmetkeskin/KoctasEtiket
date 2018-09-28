@@ -86,6 +86,7 @@
             this.lbItems = new System.Windows.Forms.ListBox();
             this.printPreviewControl1 = new System.Windows.Forms.PrintPreviewControl();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox3.SuspendLayout();
@@ -639,11 +640,22 @@
             this.trackBar1.Value = 5;
             this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(349, -2);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 24;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // frmEtiket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1239, 713);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.printPreviewControl1);
             this.Controls.Add(this.btnYayinla);
@@ -730,5 +742,6 @@
         private System.Windows.Forms.TextBox tbX;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

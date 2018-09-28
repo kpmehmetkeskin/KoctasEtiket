@@ -7,3 +7,13 @@ c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Ko
 c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.exe
 c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.pdb
 c:\users\aristatabletuser\documents\visual studio 2015\Projects\Koctas_etiket\Koctas_etiket\bin\Debug\Koctas_etiket.exe.config
+C:\GitRepo\KoctasEtiket\Koçtaş Etiket Exe\Koctas_etiket\Koctas_etiket\bin\Debug\Koctas_etiket.exe.config
+C:\GitRepo\KoctasEtiket\Koçtaş Etiket Exe\Koctas_etiket\Koctas_etiket\bin\Debug\Koctas_etiket.exe
+C:\GitRepo\KoctasEtiket\Koçtaş Etiket Exe\Koctas_etiket\Koctas_etiket\bin\Debug\Koctas_etiket.pdb
+C:\GitRepo\KoctasEtiket\Koçtaş Etiket Exe\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.csprojAssemblyReference.cache
+C:\GitRepo\KoctasEtiket\Koçtaş Etiket Exe\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.Form1.resources
+C:\GitRepo\KoctasEtiket\Koçtaş Etiket Exe\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.Properties.Resources.resources
+C:\GitRepo\KoctasEtiket\Koçtaş Etiket Exe\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.csproj.GenerateResource.cache
+C:\GitRepo\KoctasEtiket\Koçtaş Etiket Exe\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.csproj.CoreCompileInputs.cache
+C:\GitRepo\KoctasEtiket\Koçtaş Etiket Exe\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.exe
+C:\GitRepo\KoctasEtiket\Koçtaş Etiket Exe\Koctas_etiket\Koctas_etiket\obj\Debug\Koctas_etiket.pdb

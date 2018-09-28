@@ -504,6 +504,8 @@ namespace Koctas_tasarim
         }
         private void RefreshLayout()
         {
+            if (!checkBox1.Checked)
+                return;
 
             try
             {
