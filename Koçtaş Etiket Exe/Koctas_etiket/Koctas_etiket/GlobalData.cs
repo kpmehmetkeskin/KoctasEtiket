@@ -30,6 +30,7 @@ namespace Koctas_etiket
         public static List<string> reyonList = new List<string>();
         public static List<Etiket> temp = new List<Etiket>();
         public static string XMLPath = "";
-        public static string XMLPath2 = ""; 
+        public static string XMLPath2 = "";
+        public static int YERLI_LOGO_MARGIN = 30;
     }
 }

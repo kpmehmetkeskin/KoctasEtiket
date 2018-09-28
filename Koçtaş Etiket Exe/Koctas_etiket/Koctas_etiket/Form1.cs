@@ -330,7 +330,8 @@ namespace Koctas_etiket
             int num10 = Convert.ToInt32(str10);
             for (int i = 0; i < num5; i++)  // num5 kaç etiket satırı
             {
-                int num2 = ((i * num4) + (i * num9)) + num8 + 30;
+                int num2 = ((i * num4) + (i * num9)) + num8;
+                int num2InSafe = num2;
                 for (int j = 0; j < num6; j++)  //num6 kaç etiket sütunu
                 {
                     if (GlobalData.counter >= GlobalData.etkList.Count)
@@ -583,8 +584,16 @@ namespace Koctas_etiket
                                         image.RotateFlip(RotateFlipType.Rotate270FlipNone);
 
                                         // Custom Yerli etiket
-                                        Bitmap bmp = new Bitmap(Koctas_etiket.Properties.Resources.yerli, new Size(76, 30));
-                                        e.Graphics.DrawImage(bmp, new PointF(num + 12, num2 - 30));
+                                        if (GlobalData.etkList[GlobalData.counter].mensei.Equals("Menşei :Türkiye"))
+                                        {
+                                            num2 = num2InSafe + GlobalData.YERLI_LOGO_MARGIN;
+                                            Bitmap bmp = new Bitmap(Koctas_etiket.Properties.Resources.yerli, new Size(76, 30));
+                                            e.Graphics.DrawImage(bmp, new PointF(num + 12, num2 - 30));
+                                        }
+                                        else
+                                        {
+                                            num2 = num2InSafe;
+                                        }
 
                                         // Custom Fiyata kdv dahildir.
                                         StringFormat format = new StringFormat();
