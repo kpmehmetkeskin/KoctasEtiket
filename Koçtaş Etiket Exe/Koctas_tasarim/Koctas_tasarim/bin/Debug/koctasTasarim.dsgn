@@ -17,7 +17,7 @@
         <size>8</size>
         <font>Tahoma</font>
         <XPoint>18</XPoint>
-        <YPoint>155</YPoint>
+        <YPoint>143</YPoint>
         <imageWidth>10</imageWidth>
         <imageHeigth>30</imageHeigth>
       </item>
@@ -75,7 +75,7 @@
         <YPoint>53</YPoint>
       </item>
       <item name="kdv">
-        <aktif>1</aktif>
+        <aktif>0</aktif>
         <size>6</size>
         <font>Arial</font>
         <XPoint>5</XPoint>
@@ -86,7 +86,7 @@
         <size>6</size>
         <font>Arial</font>
         <XPoint>5</XPoint>
-        <YPoint>110</YPoint>
+        <YPoint>107</YPoint>
       </item>
       <item name="tanim">
         <karsayi>14</karsayi>
@@ -115,14 +115,14 @@
         <size>7</size>
         <font>Arial</font>
         <XPoint>6</XPoint>
-        <YPoint>275</YPoint>
+        <YPoint>261</YPoint>
       </item>
       <item name="urunkodu">
         <aktif>1</aktif>
         <size>7</size>
         <font>Arial</font>
         <XPoint>6</XPoint>
-        <YPoint>285</YPoint>
+        <YPoint>270</YPoint>
       </item>
       <item name="tarih">
         <aktif>0</aktif>
@@ -341,7 +341,7 @@
         <size>5</size>
         <font>Arial</font>
         <XPoint>5</XPoint>
-        <YPoint>119</YPoint>
+        <YPoint>116</YPoint>
       </item>
       <item name="gecer_tar_text">
         <karsayi>30</karsayi>
@@ -349,7 +349,7 @@
         <size>5</size>
         <font>Arial</font>
         <XPoint>5</XPoint>
-        <YPoint>149</YPoint>
+        <YPoint>140</YPoint>
       </item>
       <item name="gecer_tar_basla">
         <karsayi>14</karsayi>
@@ -357,7 +357,7 @@
         <size>5</size>
         <font>Arial</font>
         <XPoint>5</XPoint>
-        <YPoint>159</YPoint>
+        <YPoint>148</YPoint>
       </item>
       <item name="gecer_tar_bitis">
         <karsayi>14</karsayi>
@@ -365,14 +365,14 @@
         <size>5</size>
         <font>Arial</font>
         <XPoint>53</XPoint>
-        <YPoint>159</YPoint>
+        <YPoint>148</YPoint>
       </item>
       <item name="gecer_tar_ayirac">
         <aktif>1</aktif>
         <size>11</size>
         <font>Arial</font>
         <XPoint>45</XPoint>
-        <YPoint>153</YPoint>
+        <YPoint>143</YPoint>
       </item>
     </items>
   </etiket>
