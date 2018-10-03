@@ -633,7 +633,7 @@ namespace Koctas_etiket
                                         image = generator.GenerateImage();
 
                                         // Custom Yerli etiket
-                                        if (GlobalData.etkList[GlobalData.counter].mensei.Equals("Menşei :Türkiye"))
+                                        if (GlobalData.etkList[GlobalData.counter].mensei.Contains("rkiye"))
                                         {
                                             Bitmap bmp = new Bitmap(Koctas_etiket.Properties.Resources.yerli, new Size(68, 29));
                                             e.Graphics.DrawImage(bmp, new PointF(num + 195, num2 + 1));
@@ -642,10 +642,10 @@ namespace Koctas_etiket
                                         // Custom Promosyon Geçerlilik Tarihi Ekledik
                                         if (GlobalData.etkList[GlobalData.counter].parokart_gecer.Equals("X"))  // Parokartı var 
                                         {
-                                            e.Graphics.DrawString("Promosyon Geçerlilik Tarihi", new Font("Arial", 7), brush, new PointF(135 + num, 110 + num2));
-                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_basla, new Font("Arial", 5), brush, new PointF(135 + num, 120 + num2));
-                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_bitis, new Font("Arial", 5), brush, new PointF(175 + num, 120 + num2));
-                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_ayirac, new Font("Arial", 5), brush, new PointF(172 + num, 120 + num2));
+                                            e.Graphics.DrawString("Promosyon Geçerlilik Tarihi", new Font("Arial", 7), brush, new PointF(135 + num, 129 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_basla, new Font("Arial", 5), brush, new PointF(135 + num, 139 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_bitis, new Font("Arial", 5), brush, new PointF(175 + num, 139 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_ayirac, new Font("Arial", 5), brush, new PointF(172 + num, 139 + num2));
                                         }
 
                                     }
@@ -661,7 +661,7 @@ namespace Koctas_etiket
                                         image = new BarCodeGenerator(GlobalData.bars).GenerateImage();
 
                                         // Custom Yerli etiket
-                                        if (GlobalData.etkList[GlobalData.counter].mensei.Equals("Menşei :Türkiye"))
+                                        if (GlobalData.etkList[GlobalData.counter].mensei.Contains("rkiye"))
                                         {
                                             Bitmap bmp = new Bitmap(Koctas_etiket.Properties.Resources.yerli, new Size(101, 40));
                                             e.Graphics.DrawImage(bmp, new PointF(num + 250, num2 + 5));
