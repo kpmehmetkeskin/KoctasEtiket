@@ -373,8 +373,8 @@ namespace Koctas_etiket
                                         break;
 
                                     case "tanim":
-                                        if (GlobalData.etkList[GlobalData.counter].maktx.Length > 39)
-                                            text = GlobalData.etkList[GlobalData.counter].maktx.Substring(0, 39);
+                                        if (GlobalData.etkList[GlobalData.counter].maktx.Length > 35)
+                                            text = GlobalData.etkList[GlobalData.counter].maktx.Substring(0, 35);
                                         else
                                             text = GlobalData.etkList[GlobalData.counter].maktx;
                                         break;
@@ -490,8 +490,8 @@ namespace Koctas_etiket
                                         break;
 
                                     case "tanim":
-                                        if (GlobalData.etkList[GlobalData.counter].maktx.Length > 39)
-                                            text = GlobalData.etkList[GlobalData.counter].maktx.Substring(0, 39);
+                                        if (GlobalData.etkList[GlobalData.counter].maktx.Length > 35)
+                                            text = GlobalData.etkList[GlobalData.counter].maktx.Substring(0, 35);
                                         else
                                             text = GlobalData.etkList[GlobalData.counter].maktx;
                                         break;
