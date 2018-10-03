@@ -6,9 +6,9 @@
     <dikey>2</dikey>
     <en>98</en>
     <boy>316</boy>
-    <orgx>40</orgx>
+    <orgx>43</orgx>
     <orgy>45</orgy>
-    <vspace>70</vspace>
+    <vspace>63</vspace>
     <hspace>20</hspace>
     <aciklama>Tırtıl, küçük alanlarda</aciklama>
     <items>
@@ -17,7 +17,7 @@
         <size>8</size>
         <font>Tahoma</font>
         <XPoint>18</XPoint>
-        <YPoint>145</YPoint>
+        <YPoint>150</YPoint>
         <imageWidth>10</imageWidth>
         <imageHeigth>30</imageHeigth>
       </item>
@@ -115,14 +115,14 @@
         <size>7</size>
         <font>Arial</font>
         <XPoint>6</XPoint>
-        <YPoint>263</YPoint>
+        <YPoint>268</YPoint>
       </item>
       <item name="urunkodu">
         <aktif>1</aktif>
         <size>7</size>
         <font>Arial</font>
         <XPoint>6</XPoint>
-        <YPoint>272</YPoint>
+        <YPoint>277</YPoint>
       </item>
       <item name="tarih">
         <aktif>0</aktif>
@@ -379,12 +379,12 @@
   <etiket tip="002" isim="2. Tip">
     <yon>yatay</yon>
     <yatay>4</yatay>
-    <dikey>6</dikey>
+    <dikey>5</dikey>
     <en>280</en>
     <boy>132</boy>
     <orgx>11</orgx>
-    <orgy>-2</orgy>
-    <vspace>0</vspace>
+    <orgy>0</orgy>
+    <vspace>10</vspace>
     <hspace>0</hspace>
     <aciklama>etiket 3 büyük şeyler için</aciklama>
     <items>

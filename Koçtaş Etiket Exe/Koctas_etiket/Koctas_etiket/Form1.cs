@@ -590,7 +590,7 @@ namespace Koctas_etiket
                                         image.RotateFlip(RotateFlipType.Rotate270FlipNone);
 
                                         // Custom Yerli etiket
-                                        if (GlobalData.etkList[GlobalData.counter].mensei.Equals("Menşei :Türkiye"))
+                                        if (GlobalData.etkList[GlobalData.counter].mensei.Contains("rkiye")) // Türkiye kontrolü
                                         {
                                             num2 = num2InSafe + GlobalData.YERLI_LOGO_MARGIN;
                                             Bitmap bmp = new Bitmap(Koctas_etiket.Properties.Resources.yerli, new Size(76, 30));
