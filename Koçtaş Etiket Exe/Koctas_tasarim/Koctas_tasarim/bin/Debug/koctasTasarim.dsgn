@@ -1116,18 +1116,18 @@
       <item name="gecer_tar_text">
         <karsayi>30</karsayi>
         <aktif>1</aktif>
-        <size>8</size>
+        <size>7</size>
         <font>Arial</font>
         <XPoint>10</XPoint>
-        <YPoint>225</YPoint>
+        <YPoint>223</YPoint>
       </item>
       <item name="gecer_tar_basla">
         <karsayi>14</karsayi>
         <aktif>1</aktif>
-        <size>8</size>
+        <size>7</size>
         <font>Arial</font>
         <XPoint>125</XPoint>
-        <YPoint>225</YPoint>
+        <YPoint>223</YPoint>
       </item>
       <item name="gecer_tar_bitis">
         <karsayi>14</karsayi>
