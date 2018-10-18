@@ -373,8 +373,8 @@ namespace Koctas_etiket
                                         break;
 
                                     case "tanim":
-                                        if (GlobalData.etkList[GlobalData.counter].maktx.Length > 35)
-                                            text = GlobalData.etkList[GlobalData.counter].maktx.Substring(0, 35);
+                                        if (etkTip.Equals("004") && GlobalData.etkList[GlobalData.counter].maktx.Length > 40)
+                                            text = GlobalData.etkList[GlobalData.counter].maktx.Substring(0, 40);
                                         else
                                             text = GlobalData.etkList[GlobalData.counter].maktx;
                                         break;
@@ -490,8 +490,8 @@ namespace Koctas_etiket
                                         break;
 
                                     case "tanim":
-                                        if (GlobalData.etkList[GlobalData.counter].maktx.Length > 35)
-                                            text = GlobalData.etkList[GlobalData.counter].maktx.Substring(0, 35);
+                                        if (etkTip.Equals("004") && GlobalData.etkList[GlobalData.counter].maktx.Length > 40)
+                                            text = GlobalData.etkList[GlobalData.counter].maktx.Substring(0, 40);
                                         else
                                             text = GlobalData.etkList[GlobalData.counter].maktx;
                                         break;
@@ -642,10 +642,10 @@ namespace Koctas_etiket
                                         // Custom Promosyon Geçerlilik Tarihi Ekledik
                                         if (GlobalData.etkList[GlobalData.counter].parokart_gecer.Equals("X"))  // Parokartı var 
                                         {
-                                            e.Graphics.DrawString("Promosyon Geçerlilik Tarihi", new Font("Arial", 7), brush, new PointF(135 + num, 129 + num2));
-                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_basla, new Font("Arial", 5), brush, new PointF(135 + num, 139 + num2));
-                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_bitis, new Font("Arial", 5), brush, new PointF(175 + num, 139 + num2));
-                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_ayirac, new Font("Arial", 5), brush, new PointF(172 + num, 139 + num2));
+                                            e.Graphics.DrawString("Promosyon Geçerlilik Tarihi", new Font("Arial", 7), brush, new PointF(135 + num, 120 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_basla, new Font("Arial", 5), brush, new PointF(136 + num, 130 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_bitis, new Font("Arial", 5), brush, new PointF(176 + num, 130 + num2));
+                                            e.Graphics.DrawString(GlobalData.etkList[GlobalData.counter].gecer_tar_ayirac, new Font("Arial", 5), brush, new PointF(173 + num, 130 + num2));
                                         }
 
                                     }
